@@ -5,7 +5,7 @@ AI-powered Git workflow automation CLI.
 ## Install
 
 ```bash
-brew tap rust142/geeto
+brew tap IDNCraft/geeto
 brew install geeto
 ```
 
@@ -13,10 +13,10 @@ brew install geeto
 
 ```bash
 brew uninstall geeto
-brew untap rust142/geeto
+brew untap IDNCraft/geeto
 ```
 
 ## More Info
 
-- [Geeto Repository](https://github.com/rust142/geeto)
-- [Releases](https://github.com/rust142/geeto/releases)
+- [Geeto Repository](https://github.com/IDNCraft/geeto)
+- [Releases](https://github.com/IDNCraft/geeto/releases)
