@@ -4,20 +4,20 @@
 class Geeto < Formula
   desc "AI-powered Git workflow automation CLI"
   homepage "https://github.com/IDNCraft/geeto"
-  version "0.14.1"
+  version "0.14.2"
   license "MIT"
 
   on_macos do
     if Hardware::CPU.intel?
-      url "https://github.com/IDNCraft/geeto/releases/download/v0.14.1/geeto-mac"
-      sha256 "2be555a85cb3480de06bbd806c98450d59b9209c7aa3c362355a104e22d5df37"
+      url "https://github.com/IDNCraft/geeto/releases/download/v0.14.2/geeto-mac"
+      sha256 "78048ac0ed7f30857c3323c2b0f651b1c09447a444b5bf6b77ca8865c431b821"
 
       def install
         bin.install "geeto-mac" => "geeto"
       end
     elsif Hardware::CPU.arm?
-      url "https://github.com/IDNCraft/geeto/releases/download/v0.14.1/geeto-mac-arm64"
-      sha256 "3d399ab7be3f8e1e4f3616fc58aafab52c7c3d891b426d5d39f4b85e3441c58e"
+      url "https://github.com/IDNCraft/geeto/releases/download/v0.14.2/geeto-mac-arm64"
+      sha256 "9ddb3b73e1962160c86bfa35910cdde27c9711369dd573ae17ad92391d7607ff"
 
       def install
         bin.install "geeto-mac-arm64" => "geeto"
@@ -27,15 +27,15 @@ class Geeto < Formula
 
   on_linux do
     if Hardware::CPU.intel?
-      url "https://github.com/IDNCraft/geeto/releases/download/v0.14.1/geeto-linux"
-      sha256 "33831a41f04b09e5493f3122401cb47bdde9f12fe312ed3a808a601cdfc8e33f"
+      url "https://github.com/IDNCraft/geeto/releases/download/v0.14.2/geeto-linux"
+      sha256 "10d80007051fd0a094e7a1e625d37dd6ddb68382940bc83ba63a588e80383ae3"
 
       def install
         bin.install "geeto-linux" => "geeto"
       end
     elsif Hardware::CPU.arm?
-      url "https://github.com/IDNCraft/geeto/releases/download/v0.14.1/geeto-linux-arm64"
-      sha256 "9703f1d22ee241faf3d079c55d32abec0ccebafb0966c5f8e48f48d1c8389ded"
+      url "https://github.com/IDNCraft/geeto/releases/download/v0.14.2/geeto-linux-arm64"
+      sha256 "8f821e55ad2db3bac40fa514ab864712294fb7aaf120f718a32c234f5870172e"
 
       def install
         bin.install "geeto-linux-arm64" => "geeto"
